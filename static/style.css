@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(135deg, var(--cor-primaria), var(--cor-destaque));
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(235, 9, 96, 0.863);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 40px;
+    max-width: 800px;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    margin-top: 15px;
+    line-height: 1.6;
+}
+
+/* BOTÃO */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    background: #d70765;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+}
+
+/* REDES SOCIAIS */
+.social-links {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.social-links a:hover {
+    color: #f60585;
+}
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+.projetos {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* GRID PROFISSIONAL */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.jogo {
+    width: 400px;
+    height: 400px;
+}
+
+.pitch {
+    width: 400px;
+    height: 400px;
+}
+
+/* CARD */
+.card {
+    background: #1f1f1f;
+    padding: 25px;
+    border-radius: 12px;
+    width: 260px;
+    transition: 0.3s;
+}
+
+/* ANIMAÇÃO HOVER */
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(255, 62, 165, 0.4);
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+
+
+}
+
+.hero {
+    animation: fadeUp 1s ease-out;
+}
+
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(255, 62, 165, 0.4);
+}
+.social-links a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.2) rotate(5deg);
+    color: #ff3ea5;
+}
+body {
+    cursor: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'>\
+<text x='0' y='24' font-size='24'>🎀</text>\
+</svg>") 0 0, auto;
+}
+
+a, button {
+    cursor: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'>\
+<text x='0' y='24' font-size='24'>🎀</text>\
+</svg>") 0 0, pointer;
+}
+
