@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Projetos{% endblock %}
+
+{% block content %}
+
+<section class="projetos">
+
+    <h2>Meus Projetos</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Jogo da Memória</h3>
+            <p>Projeto desenvolvido com JavaScript e lógica de programação.</p>
+        </div>
+
+        <div class="card">
+            <h3>Pitch</h3>
+            <p>projeto Desenvolvido em Grupo.</p>
+        </div>
+
+        <img src="{{ url_for('static', filename= 'img/jogo.gif') }}"  class="jogo" >
+        <img src="{{ url_for('static', filename= 'img/pitch (1).gif') }}"  class="pitch" >
+      
+
+
+
+    </div>
+
+</section>
+
+{% endblock %}
